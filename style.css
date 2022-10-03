@@ -47,9 +47,10 @@ ul{
     width: 1200px;
    padding-left: 15px;
    padding-right: 15px;
-   margin-left: auto;
+  
+    margin-left: auto;
    margin-right: auto;
-   
+
 }
 /* Header */
 
@@ -171,22 +172,26 @@ justify-content: space-between;
 .work{
     display: flex;
     flex-wrap: wrap;
+    margin: -15px;
    
 
 }
 
 .work-item{
-    width: calc((100%-30px*3)/3) ;
+    width: calc((100% - 30px * 3) / 3) ;
+    margin: 15px;
    
 }
 
 .team{
     display: flex;
     flex-wrap: wrap;
+    margin: -15px;
 }
 
 .team-members{
-    width: calc((100%-30px*4)/4) ;
+    width: calc((100% - 30px * 4) / 4) ;
+    margin: 15px;
 }
 .team-members img{
     height: 260px;
@@ -237,6 +242,6 @@ footer{
 }     
 
 .examples-link{
-    width: calc((100%-30px*3)/3) ;
+    width: calc((100% - 30px * 3) / 3) ;
     margin: 15px;
 }
